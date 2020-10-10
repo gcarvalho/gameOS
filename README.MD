@@ -12,6 +12,8 @@ The goal of this theme is to create a modern game launcher that can fit in along
 
 Windows users may need to install the [K-lite Codec Pack](https://www.codecguide.com/download_kl.htm) to get video playback working.
 
+IMPORTANT: You need to have the latest version of Pegasus installed (not the current Stable release) otherwise you will get an error regarding Qt.Modules.
+
 ## Metadata
 
 It is recommended to use [Skraper.net](http://www.skraper.net/) to acquire media assets for this theme. These are the minimum requirements for media scraping, although adding more could be useful for other themes or the future:
@@ -27,6 +29,12 @@ Skraper will place these in your roms folder under another folder called media.
 If no media files are showing up, make sure that Skraper Assets is checked in the Additional Data Sources section of Pegasus settings. It may also be preferable to convert the created gamelist.xml (assuming EmulationStation was chosen for the game list in Skraper) to a metadata.txt file using the [Pegasus conversion tool](http://pegasus-frontend.org/tools/convert/)
 
 ## Version history
+v1.09
+- Added ability to sort by rating
+
+v1.08
+- Significant performance increase in navigating pages
+
 v1.07
 - Added home settings (by @waldnercharles)
 - Added advanced settings to adjust item ratios (by @waldnercharles)
